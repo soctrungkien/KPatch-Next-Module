@@ -1,3 +1,4 @@
+# This version has removed kernel check.
 # KPatch Next Module
 
 Standalone implementation of KPM support for Magisk/KernelSU
