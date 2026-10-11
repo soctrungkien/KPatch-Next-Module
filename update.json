@@ -1,6 +1,6 @@
 {
   "versionCode": 1,
-  "version": "",
-  "zipUrl": "https://github.com/KernelSU-Next/KPatch-Next-Module/releases/download/latest/KPatch-Next-Module.zip",
-  "changelog": "https://raw.githubusercontent.com/KernelSU-Next/KPatch-Next-Module/main/CHANGELOG.md"
+  "version": "v0.0.1",
+  "zipUrl": "https://github.com/soctrungkien/KPatch-Next-Module/releases/download/latest/KPatch-Next-Module.zip",
+  "changelog": "https://raw.githubusercontent.com/soctrungkien/KPatch-Next-Module/main/CHANGELOG.md"
 }
