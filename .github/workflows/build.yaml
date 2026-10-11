@@ -63,8 +63,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 'latest'
-        cache: 'pnpm'
-        cache-dependency-path: webui/pnpm-lock.yaml
 
     - name: build webroot
       run: |
