@@ -49,14 +49,12 @@ if kptools -i kernel -f | grep -q "CONFIG_KPM=y"; then
 	echo "! Patcher has Aborted."
 	echo "! Detected built-in KPM (CONFIG_KPM=y)."
 	echo "! KPatch-Next is not compatible alongside built-in KPM."
-	exit 1
 fi
 
 if [ ! $(kptools -i kernel -f | grep CONFIG_KALLSYMS_ALL=y) ]; then
 	echo "! Patcher has Aborted."
 	echo "! KPatch-Next requires CONFIG_KALLSYMS_ALL to be Enabled."
 	echo "! But your kernel seems NOT enabled it."
-	exit 1
 fi
 
 if [  $(kptools -i kernel -l | grep patched=false) ]; then
